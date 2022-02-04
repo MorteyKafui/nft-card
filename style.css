@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 .card {
@@ -39,7 +39,7 @@ body {
   background-color: hsl(216, 50%, 16%);
   border-radius: 20px;
   margin-top: 10rem;
-  width: 80%;
+  width: 70%;
 }
 
 .card .card__img {
@@ -59,7 +59,7 @@ body {
 
 .card .card__subtext {
   color: hsl(215, 32%, 27%);
-  font-size: 2.3rem;
+  font-size: 2rem;
   align-self: flex-start;
   line-height: 1.3;
   width: 80%;
@@ -117,13 +117,14 @@ body {
   border-radius: 50%;
   width: 20%;
   align-self: flex-start;
-  margin-left: -8rem;
+  margin-left: -1rem;
 }
 
 .card__footer h3 {
   color: hsl(215, 32%, 27%);
   font-size: 2rem;
   letter-spacing: 1px;
+  margin-right: 5rem;
 }
 
 .card__footer span {
